@@ -23,11 +23,14 @@ public class Converter {
 
 	// metoda koja konvertuje celzijuse u farenhajte
 	public static double celzijiUfarenhajte(double celziji) {
-		return 0.0;
+		double farenheit = celziji * (9 / 5) + 32;
+		return farenheit;
 	}
 
 	// metoda koja konvertuje farehajtre u celzijuse
 	public static double farenhajtiUcelzije(double pounds) {
-		return 0.0;
+		// zašto si imenovala varijablu pounds a ne fahrenheit??
+		double celzius = (pounds - 32) * (5 / 9);
+		return celzius;
 	}
 }
