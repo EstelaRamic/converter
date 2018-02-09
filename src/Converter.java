@@ -3,12 +3,14 @@ public class Converter {
 
 	// metoda koja konvertuje kilograme u funte
 	public static double kilogramiUfunte(double kg) {
-		return 0.0;
+		double pounds = kg * 2.2046226218;
+		return pounds;
 	}
 
 	// metoda koja konvertuje funte u kilograme
 	public static double funteUkilograme(double pounds) {
-		return 0.0;
+		double kg = pounds \ 2.2046226218; 
+		return kg ;
 	}
 
 	// metoda koja konvertuje centimetre u ince
