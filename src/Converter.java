@@ -28,9 +28,8 @@ public class Converter {
 	}
 
 	// metoda koja konvertuje farehajtre u celzijuse
-	public static double farenhajtiUcelzije(double pounds) {
-		// zašto si imenovala varijablu pounds a ne fahrenheit??
-		double celzius = (pounds - 32) * (5 / 9);
+	public static double farenhajtiUcelzije(double farenheit) {
+		double celzius = (farenheit - 32) * (5 / 9);
 		return celzius;
 	}
 }
